@@ -1,7 +1,7 @@
 echo "Number of lines:"
-wc -l prog15.sh
+cat prog15.sh | wc -l
 echo "Number of words:"
-wc -w prog15.sh
+cat prog15.sh | wc -w
 echo "Number of characters:"
-wc -c prog15.sh
+cat prog15.sh | wc -c
 
